@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to **course instructors or project maintainers** using the contact
-channel announced in the 2mbs40 course materials or the GitLab project
+channel announced in the 2mbs40 course materials or the GitHub repository
 description.
 
 All complaints will be reviewed and investigated promptly and fairly.

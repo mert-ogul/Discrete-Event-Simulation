@@ -18,7 +18,7 @@
 
 ## Hardware and OS assumptions
 
-- **OS**: macOS, Linux, or Windows (with PowerShell/WSL for shell commands). CI runs on Linux (GitLab).
+- **OS**: macOS, Linux, or Windows (with PowerShell/WSL for shell commands). CI runs on Linux (GitHub Actions).
 - **Hardware**: No GPU or special hardware. Single-threaded, standard laptop/desktop sufficient for the provided experiments.
 - **Docker** (optional): If using the provided Dockerfile, any host OS supported by Docker (Linux, macOS, Windows with WSL2) is assumed.
 

@@ -2,10 +2,10 @@
 
 Thank you for helping improve this project. This document matches how the team and graders expect changes to land.
 
-## Branching and merge requests
+## Branching and pull requests
 
 - Use **feature branches** off `main` with short, descriptive names (examples: `fix/mypy-sim-package`, `feature/analysis-tables`).
-- Open a **merge request (MR)** early for sizable work, keep commits focused.
+- Open a **pull request (PR)** early for sizable work, keep commits focused.
 - Prefer **rebase** or **merge without fast-forward**, avoid force-pushing shared branches.
 
 ## Commit messages
@@ -16,7 +16,7 @@ Thank you for helping improve this project. This document matches how the team a
 
 ## Maintainer contact (active course window)
 
-During the **2mbs40 assignment period**, use the **course communication channels** (canvas or email) and **assign reviewers on GitLab merge requests** where possible. Teammates should expect a **best-effort reply within a few working days** while the project is active. There is no commitment outside the course timeline.
+During the **2mbs40 assignment period**, use the **course communication channels** (canvas or email) and **request reviewers on GitHub pull requests** where possible. Teammates should expect a **best-effort reply within a few working days** while the project is active. There is no commitment outside the course timeline.
 
 ## Pre-commit hooks (optional)
 
@@ -79,7 +79,7 @@ All dependencies (runtime and dev/CI) are pinned in **`requirements.txt`**. For 
 
 ## Dependency scanning in CI
 
-The pipeline includes GitLab’s **Dependency Scanning** template. If your GitLab instance disables that template or it fails on metadata-only projects, maintainers may temporarily disable the `include` in [`.gitlab-ci.yml`](.gitlab-ci.yml) after documenting the reason—coordinate with course staff if this affects grading.
+The **dependency-audit** job runs [`pip-audit`](https://pypi.org/project/pip-audit/) against the installed environment. If a finding is a false positive or cannot be fixed immediately, maintainers may document the exception and adjust the workflow after coordinating with course staff if this affects grading.
 
 ## Code of Conduct
 

@@ -25,7 +25,6 @@ __pycache__
 
 # Build and CI (not needed in image)
 .github
-.gitlab-ci.yml
 
 # Outputs (reproduce with run instead)
 results/
