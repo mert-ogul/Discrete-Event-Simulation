@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    image: group38-sim:latest
+    working_dir: /app
+    environment:
+      PYTHONPATH: /app/src
+    volumes:
+      - .:/app

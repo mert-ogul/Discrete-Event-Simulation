@@ -1,0 +1,14 @@
+{
+  "name": "group38-waste-recycling-sim",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "features": {},
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": false
+      }
+    }
+  }
+}

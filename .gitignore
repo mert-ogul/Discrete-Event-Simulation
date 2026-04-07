@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv-ci/
+.venv-stress/
+ENV/
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+coverage.xml
+.coverage
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+.DS_Store
+
+# Data, results, and plots
+results/
+plots/
+data/
+figures/
+output/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb

@@ -1,0 +1,40 @@
+# Git and env
+.git
+.gitignore
+.venv
+venv
+env
+ENV
+
+# Python
+__pycache__
+*.py[cod]
+*.pyo
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.egg-info
+.eggs
+
+# IDE and OS
+.idea
+.vscode
+.DS_Store
+*.swp
+*.swo
+
+# Build and CI (not needed in image)
+.github
+.gitlab-ci.yml
+
+# Outputs (reproduce with run instead)
+results/
+plots/
+data/
+output/
+
+# Docs (optional: add README if you want it in image)
+# README.md
+# CONTRIBUTING.md
+# LICENSE
+# Report.tex
